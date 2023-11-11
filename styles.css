@@ -1,0 +1,174 @@
+/* Reset default styles for the navigation list */
+nav ul {
+  list-style: none; /* Remove list bullets */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+/* Style each navigation list item */
+nav li {
+  display: inline; /* Display list items horizontally */
+  margin-right: 20px; /* Add space between menu items */
+}
+
+/* Style the navigation links */
+nav a {
+  text-decoration: none; /* Remove underlines from links */
+}
+
+/* Apply the Roboto font to the entire document body */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Style the footer section */
+.footer {
+  background-color: #333; /* Set the background color to dark gray */
+  color: white; /* Set the text color to white */
+  text-align: center; /* Center-align text content */
+  padding: 10px; /* Add padding to the footer */
+}
+
+/* Target the "home" section by its ID */
+#home {
+  background-color: darkblue; /* Set the background color*/
+  background-size: cover; /* Make the background image cover the entire section */
+  text-align: center; /* Center-align text content */
+  color: #fff; /* Text color */
+  padding: 100px; /* Add padding to create spacing around content */
+}
+
+/* Style the h1 elements within the "home" section */
+#home h1 {
+  font-family: "Roboto", sans-serif; /* Use the Roboto font */
+  font-size: 36px; /* Adjust the font size */
+  margin: 10px 0; /* Add margin to separate elements */
+}
+
+/* Style the paragraph within the "home" section */
+#home p {
+  font-size: 18px; /* Adjust the font size */
+  line-height: 1.5; /* Adjust the line height for readability */
+  margin-top: 20px; /* Adjust the value to set the desired space */
+}
+/* Target the "about" section by its ID */
+#about {
+  border: 2px solid #000000; /* Add a solid blue border */
+  padding: 20px; /* Add padding to create spacing around the content inside the frame */
+  margin-top: 20px; /* Adjust the value to set the desired space */
+}
+
+/* Style the "work" section */
+#work {
+  margin-top: 20px; /* Adjust the value to set the desired space */
+}
+
+/* Style the list items within the "work" section */
+#work ul {
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+}
+
+#work li {
+  margin-bottom: 10px; /* Add space between list items */
+}
+
+/* Style the project titles and descriptions */
+#work h1 {
+  color: #333333333; /* Set the color of project titles */
+}
+
+#work p {
+  color: #555555555; /* Set the color of project descriptions */
+}
+/* Style the "resume" section */
+/* Add frame to the Resume section */
+#resume {
+  border: 10px solid #e810e8; /* Border color and width */
+  padding: 20px; /* Add some padding inside the frame */
+  margin-top: 20px; /* Adjust the value to set the desired space */
+}
+
+#resume {
+  background-color: rgb(20, 79, 155); /* Set a background color */
+  padding: 20px; /* Add padding to create spacing around the content */
+}
+
+/* Style the headings in the "resume" section */
+#resume h2 {
+  color: #e810e8; /* Set the color of the section heading */
+}
+
+#resume h1 {
+  color: #df6969; /* Set the color of subheadings */
+}
+
+/* Style the paragraphs in the "resume" section */
+#resume p {
+  color: #f7f1f1; /* Set the color of the text */
+  line-height: 1.6; /* Adjust the line height for readability */
+}
+
+/* Style the skills section with a different background color */
+#resume h1:contains("Skills") {
+  background-color: #ddd; /* Set a background color for the skills heading */
+  padding: 10px; /* Add padding to the skills heading */
+}
+
+/* Style the list of skills */
+#resume ul {
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+}
+
+#resume li {
+  margin-bottom: 8px; /* Add space between list items */
+}
+
+/* Add a border to separate the experience entries */
+#resume h1:contains("Experience") + h1,
+#resume h1:contains("Skills") + h1 {
+  border-top: 2px solid #ccc; /* Add a border above the next heading */
+  margin-top: 20px; /* Add space between the sections */
+}
+/* Style the "contact" section */
+#contact {
+  background-color: #e6f7ff; /* Set a background color */
+  padding: 5px; /* Add padding to create spacing around the content */
+  margin-top: 20px; /* Adjust the value to set the desired space */
+}
+
+/* Style the headings in the "contact" section */
+#contact h2 {
+  color: #333; /* Set the color of the section heading */
+}
+
+/* Style the form labels */
+#contact form label {
+  display: block; /* Make labels block-level for better spacing */
+  margin-bottom: 8px; /* Add space below labels */
+  color: #555; /* Set the color of the labels */
+}
+
+/* Style the form inputs and textarea */
+#contact form input[type="text"],
+#contact form input[type="email"],
+#contact form textarea {
+  width: 100%; /* Make inputs and textarea full-width */
+  padding: 8px; /* Add padding for better appearance */
+  margin-bottom: 16px; /* Add space below inputs */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Style the submit button */
+#contact form input[type="submit"] {
+  background-color: #4caf50; /* Set a background color for the submit button */
+  color: white; /* Set the text color of the submit button */
+  padding: 10px 15px; /* Add padding to the submit button */
+  border: none; /* Remove the border */
+  cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+#contact form input[type="submit"]:hover {
+  background-color: #45a049; /* Change the background color on hover */
+}

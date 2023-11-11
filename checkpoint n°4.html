@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Metadata for character set and viewport -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title of the webpage -->
+    <title>Professional Portfolio</title>
+
+    <!-- Link to external stylesheet for styling -->
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body
+    background="C:\Users\Ines\Desktop\etudes\GOMYCODE\checkpoint n°3\background.jpg"
+  >
+    <!-- Navigation Section -->
+    <nav>
+      <ul>
+        <!-- Navigation links with anchor tags -->
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Work">Work</a></li>
+        <li><a href="#Resume">Resume</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+      <!-- Headings and text for the home section -->
+      <h1>Iam Steven Jacobs and Welcome to My Portfolio</h1>
+      <h1>Iam a professional web developer</h1>
+      <p>This is the home section of my portfolio</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <!-- Heading and text for the about section -->
+      <h2>About Me</h2>
+      <p>My about section content goes here</p>
+
+      <!-- Centered image for the about section -->
+      <center>
+        <img
+          src="C:\Users\Ines\Desktop\etudes\GOMYCODE\checkpoint n°3\image 1.jpg"
+          alt="A description of the image"
+        />
+      </center>
+
+      <!-- Centered video and audio for the about section -->
+      <center>
+        <video controls>
+          <source
+            src="C:\Users\Ines\Desktop\etudes\GOMYCODE\checkpoint n°3\video 1.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </center>
+      <audio controls>
+        <source
+          src="C:\Users\Ines\Desktop\etudes\GOMYCODE\checkpoint n°3\sound 1.mp3"
+          type="audio/mpeg"
+        />
+        Your browser does not support the audio tag.
+      </audio>
+
+      <!-- Objective heading and text -->
+      <h1>Objective:</h1>
+      <p>
+        Highly skilled web developer with a passion for creating dynamic and
+        interactive websites. Adept at both front-end and back-end development,
+        with a strong focus on user experience and responsive design. Seeking a
+        challenging role to leverage my technical expertise and creativity to
+        build exceptional web solutions.
+      </p>
+    </section>
+
+    <!-- Work Section with background image -->
+    <section
+      id="work"
+      style="
+        background-image: url('https://www.shutterstock.com/shutterstock/videos/4004506/thumb/1.jpg?ip=x480');
+      "
+    >
+      <h2>My Work</h2>
+      <ul>
+        <!-- List items with links and project descriptions -->
+        <li><a href="#work_project1">Project 1</a></li>
+        <h1>E-commerce Website</h1>
+        <p>
+          Description: Develop a full-fledged e-commerce website where users can
+          browse products, add them to a cart, make purchases, and manage their
+          accounts.
+        </p>
+
+        <li><a href="#work_project2">Project 2</a></li>
+        <h1>Social Media Dashboard</h1>
+        <p>
+          Description: Create a dashboard that aggregates data from various
+          social media platforms, providing users with insights into their
+          social media performance.
+        </p>
+
+        <li><a href="#work_project3">Project 3</a></li>
+        <h1>Content Management System (CMS)</h1>
+        <p>
+          Description: Build a CMS for website content management, enabling
+          users to create, edit, and organize web pages and blog posts.
+        </p>
+      </ul>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+      <!-- Heading for the resume section -->
+      <h2>My Resume</h2>
+
+      <!-- Education details -->
+      <h1>Education</h1>
+      <h1>Bachelor of Science in Computer Science</h1>
+      <p>Stanford University</p>
+      <p>Graduated: July 2020</p>
+      <p>
+        Relevant Coursework: Web Development, Database Management, User
+        Interface Design
+      </p>
+
+      <!-- Experience details -->
+      <h1>Experience</h1>
+      <h1>
+        Web Developer | ABC Web Solutions | Anytown, USA | July 2020 - Present
+      </h1>
+      <p>
+        Designed, developed, and maintained client websites, including
+        e-commerce platforms and content management systems. Collaborated with
+        cross-functional teams to gather requirements and implement responsive
+        design, ensuring optimal user experience. Utilized HTML, CSS,
+        JavaScript, and popular front-end frameworks to create interactive web
+        applications. Conducted thorough testing and debugging to ensure
+        functionality across various browsers and devices.
+      </p>
+
+      <h1>
+        Junior Web Developer | Smart Tech | California, USA | June 2019 - April
+        2020
+      </h1>
+      <p>
+        Assisted in the development of web applications and mobile apps,
+        collaborating with senior developers. Developed and maintained databases
+        using MySQL, ensuring data integrity and security. Contributed to the
+        design of user interfaces, improving user experience and engagement.
+        Participated in code reviews and troubleshooting to optimize website
+        performance.
+      </p>
+
+      <!-- Skills details -->
+      <h1>Skills</h1>
+      <p>Languages: HTML, CSS, JavaScript, PHP, Python</p>
+      <p>Front-end Frameworks: React, Angular</p>
+      <p>Back-end Frameworks: Node.js, Express</p>
+      <p>Database Management: MySQL, MongoDB</p>
+      <p>Version Control: Git</p>
+      <p>Responsive Design and Cross-Browser Compatibility</p>
+      <p>Web Security and Data Protection</p>
+      <p>Problem-Solving and Troubleshooting</p>
+      <p>Strong Communication and Team Collaboration</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <!-- Heading for the contact section -->
+      <h2>Contact Me</h2>
+
+      <!-- Form for submitting contact information -->
+      <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea
+        ><br />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <!-- Copyright information in the footer -->
+      © 2023 Steven Jacobs. All rights reserved.
+    </footer>
+  </body>
+</html>
